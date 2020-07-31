@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #232323;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 15%;
+    float: left;
+    background-color: purple;
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+}
+
+.dumbSize {
+    width: 21.5%;
+    padding-bottom: 21.5%;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0px;
+    background-color: steelblue;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.1;
+    color: white;
+}
+
+#colorDOM {
+    font-size: 1.8em;
+    text-transform: none;
+}
+
+#stripe {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+button {
+    height: 100%;
+    margin: 0px;
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: inherit;
+    color: steelblue;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.hard {
+    display: none;
+}
+
+.dumb {
+    display: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+#message {
+    width: 20%;
+    display: inline-block;
+}
