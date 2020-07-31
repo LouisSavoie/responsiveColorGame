@@ -10,20 +10,22 @@
     </head>
     <body>
         
-        <h1>The Colt Steele <br>
+        <h1>Responsive Color Game<br>
             <span id="colorDOM">RGB</span>
-            <br> Color Guessing Game</h1>
+        </h1>
 
         <div id="stripe">
-            <button id="resetButton">New Colors</button>
-            <span id="message"></span>
-            <button class="modeButton">Easy</button>
-            <button class="modeButton selected">Normal</button>
-            <button class="modeButton">Hard</button>
-            <button class="modeButton">Dumb</button>
+            <div id="stripecontainer">
+                <button id="resetButton">New Colors</button>
+                <span id="message"></span>
+                <button class="modeButton">Easy</button>
+                <button class="modeButton selected">Normal</button>
+                <button class="modeButton">Hard</button>
+                <button class="modeButton">Dumb</button>
+            </div>
         </div>
 
-        <div class="container">
+        <div class="container flexcontainer">
             <div class="square"></div>
             <div class="square"></div>
             <div class="square"></div>
@@ -40,6 +42,12 @@
             <div class="square dumb"></div>
             <div class="square dumb"></div>
             <div class="square dumb"></div>
+            <div class="square dumb"></div>
+        </div>
+
+        <div class="container" id="credit">
+            <p>Original Concept by Colt Steele, from <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">The Web Developer Bootcamp</a>.
+                <br>All modifications by Louis Savoie.</p>
         </div>
 
         <!--My Javascript-->
